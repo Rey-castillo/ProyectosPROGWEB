@@ -1,6 +1,6 @@
 
 const p=document.getElementById("texto");
-p.innerHTML = "Prigrama en HTML para sumar dos numeros";
+p.innerHTML = "Programa en HTML para sumar dos numeros";
 
 
 
