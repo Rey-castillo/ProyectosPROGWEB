@@ -55,8 +55,15 @@ section{
 #inicio{
     margin-top: 0;
 }
+#Inicio{
+    background-color: rgba(59, 59, 156, 0.486);
+}
 
 #Educacion{
+    background-color: rgb(163, 163, 228);
+}
+
+#Proyectos{
     background-color: rgb(163, 163, 228);
 }
 
