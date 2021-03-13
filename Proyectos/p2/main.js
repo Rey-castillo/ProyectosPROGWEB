@@ -6,7 +6,7 @@ p.innerHTML = "Programa en HTML para sumar dos numeros";
 
 
 const btn = document.getElementById("btn-enviar");
-btn.addEventListener("click", (e) => {                    e.preventDefault();
+btn.addEventListener("click", (e) => {e.preventDefault();
     const numero1 = document.getElementById("numero1");
     const numero2 = document.getElementById("numero2");
     
@@ -29,6 +29,7 @@ btn.addEventListener("click", (e) => {                    e.preventDefault();
             resultado= parseInt(numero1.value) / parseInt(numero2.value);
             break;
     }
+
 
     const res = document.getElementById("resultado");
     res.innerHTML = resultado;
