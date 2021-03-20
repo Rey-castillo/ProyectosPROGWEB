@@ -14,6 +14,8 @@ header{
 .nav{
     background: rgba(0, 0, 0, 0.5);
     height: 75px;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-link{
@@ -32,6 +34,14 @@ header{
     left: 0;
     z-index: -1;
 }
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(red, green, blue, alpha);
+}
 .twelcome{
     color: white;
     text-transform: uppercase;
@@ -47,6 +57,75 @@ header{
     bottom: 20%;
     right: 20%;
 }
+.team{
+    margin-top: 276px;
+}
+.titulo{
+    color: #e3a07f;
+    text-transform: uppercase;
+    font-family: 'Amiri', serif;
+    margin-bottom: 118px;
+}
+.subtitulo{
+    font-family: 'Biryani', sans-serif;
+}
+.stats{
+    height: 340px;
+    background-color: #20323a;
+}
+.stats-valor{
+    color: #88543b;
+    font-size: 77px;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+.stats-titulo{
+    color: white;
+    font-size: 26px;
+    font-family: 'Biryani', sans-serif;
+    text-transform: uppercase;
+}
+.sec-imagen{
+    height: 1225px;
+    background: url(img/verdebajo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    height: 1436px;
+    background-color: #2a3e47;
+    color: white;
+    padding-top: 300px;
+}
+.contact-titulo{
+    text-transform: uppercase;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-size: 66px;
+}
+.form-control{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+.form-control::placeholder{
+    color: white;
+}
+select.form-control{
+    color: white;
+}
+.btn-contact{
+    background-color: #89553b;
+    border: 1px solid #89553b;
+}
+.btn-contact:hover{
+    background-color: #684939;
+    border: 1px solid #684939;
+}
+
 
 /*
 font-family: 'Amiri', serif;
