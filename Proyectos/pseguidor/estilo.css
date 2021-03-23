@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(158, 158, 168, 0.541);
+}
+.titulo{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 50px;
+    margin-left: 22px;
+}
+.txtprin{
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+}
+
+/*
+font-family: 'Amiri', serif;
+font-family: 'Biryani', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+*/
