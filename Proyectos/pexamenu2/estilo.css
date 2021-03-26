@@ -1,5 +1,4 @@
 body{
-    font-family: 'Fira Sans Condensed', sans-serif;
     background-color: rgba(158, 158, 168, 0.541);
 }
 header{
@@ -72,3 +71,67 @@ header{
     background-color: #684939;
     border: 1px solid #684939;
 }
+.parte2{
+    background: rgba(0, 0, 0, 5.5);
+    background: url(img/OIH7U40.jpg);
+    height: 1225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.chef{
+    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 64px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+.parrafo1{
+    width: 750px;
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.about-content h10 {
+    font-family: 'Biryani', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-parts {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 100px;
+
+}
+.about-item p{
+    color: #a3564f;
+    padding: 50px 130px;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+.about-item p2{
+    color: #a3564f;
+    padding: 50px 15px;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+
+
+/*
+    descargar
+    font-family: "Montserrat";
+    font-family: "Archivo";
+*/
