@@ -183,16 +183,72 @@ header{
     font-weight: 400;
     font-family: "Nunito";
 }
-.losnumeros num{
+.losnumeros{
+    margin: 50px 100px;
+    align-content: flex-end;
     justify-content: space-around;
-    height: 150px;
-    padding: 500px 100px;
 }
-
-
+.parte6{
+    background: url(img/hamsec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parte7{
+    background: url(img/OIH7U40.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto5 p6{
+    padding: 50px 25px;
+    width: 746px;
+    height: 483px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;;
+}
+.texto5 h25{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+}
+.parte8{
+    background: url(img/hamsec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tipb{
+    font-size: 75px;
+color: #f64b3c;
+font-weight: 700;
+font-family: "Archivo";
+text-align: center;
+}
+.txpb{
+    width: 1509px;
+height: 210px;
+font-size: 30px;
+color: #f64b3c;
+font-weight: 400;
+font-family: "Nunito";
+text-align: center;
+}
+.partefinal{
+    background: url(img/final.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /*
     font-family: 'Archivo', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Calistoga', cursive;
     descargar
     font-family: "Montserrat";
     font-family: "Archivo";
