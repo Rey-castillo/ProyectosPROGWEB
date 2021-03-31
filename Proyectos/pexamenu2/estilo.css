@@ -53,7 +53,7 @@ header{
     text-transform: none;
     font-size: 32px;
 }
-.fas{
+.ha{
     font-size: 80px;
 }
 .titulos{
@@ -177,14 +177,14 @@ header{
 .parrafost p4{
     padding: 200px 0px;
     width: 1131px;
-    height: 210px;
+    height: 150px;
     font-size: 30px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Nunito";
 }
 .losnumeros{
-    margin: 50px 100px;
+    margin: 50px 50px;
     align-content: flex-end;
     justify-content: space-around;
 }
@@ -193,6 +193,47 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.tcosas{
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+}
+.tt{
+    padding: 5px 250px;
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+.cosa{
+    justify-content: space-between;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin: 20px 30px;
+
+}
+.precio{
+    font-size: 33px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+.had{
+    padding: 50px 150px;
+    font-size: 81px;
+}
+.des{
+    padding: 50px 10px;
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
 }
 .parte7{
     background: url(img/OIH7U40.jpg);
